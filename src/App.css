@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f7f7fb;
+  color: #1a1a2e;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+input, select {
+  border: 1.5px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  font-size: 0.95rem;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+  transition: border 0.2s;
+  background: white;
+  width: 100%;
+}
+
+input:focus, select:focus {
+  border-color: #7c3aed;
+}
+
+a {
+  color: #7c3aed;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
